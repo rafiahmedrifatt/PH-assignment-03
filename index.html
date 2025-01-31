@@ -29,23 +29,16 @@
       referrerpolicy="no-referrer"
     />
 
-    <!-- <script>
-      tailwind.config = {
-        theme: {
-          extend: {
-            font: {
-              inter:  "Inter", serif
-            }
-
-          }
-        }
+    <style>
+      .font-inter {
+        font-family: "inter", serif;
       }
-    </script> -->
+    </style>
 
     <title>Document</title>
   </head>
 
-  <body class="inter">
+  <body class="font-inter">
 
     <!-- Header Section -->
     <header class="bg-gradient-to-b from-[#FFFFFF] to-[#EFEBE3]">
@@ -118,18 +111,20 @@
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-5 text-center">
           <div class="bg-[#EFEBE3] rounded-lg p-5">
             <img src="assets/service.png" class="mx-auto p-3" alt="">
-            <h3>24/7 Services</h3>
-            <p>We provide 24/7 home delivery inside Dhaka</p>
-          </div>
-          <div class="bg-[#EFEBE3] rounded-lg p-5">
-            <img src="assets/delivery.png" class="mx-auto p-3" alt="">
-            <h3>Fast Delivery</h3>
-            <p>We provide fastest delivery service in the country</p>
-          </div>
+            <h3 class="text-xl font-bold">24/7 Services</h3>
+            <p class="my-2">We provide home delivery <br> inside Dhaka</p>
+          </div> 
+
           <div class="bg-[#EFEBE3] rounded-lg p-5">
             <img src="assets/healthy.png" class="mx-auto p-3" alt="">
-            <h3>Healthy Products</h3>
-            <p>We provide fresh and healthy vegetables at your doorstep</p>
+            <h3 class="text-xl font-bold">100% Natural</h3>
+            <p class="my-2">We provide home delivery <br> inside Dhaka</p>
+          </div>
+
+          <div class="bg-[#EFEBE3] rounded-lg p-5">
+            <img src="assets/delivery.png" class="mx-auto p-3" alt="">
+            <h3 class="text-xl font-bold">Fast Delivery</h3>
+            <p class="my-2">We provide home delivery <br> inside Dhaka</p>
           </div>
         </div>
        </section>
